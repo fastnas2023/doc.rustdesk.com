@@ -68,3 +68,6 @@ What it does:
 - Download and extract RustDesk Pro Services to the above folder
 - Create systemd services for hbbs and hbbr (service names are rustdesk-hbbs.service and rustdesk-hbbr.service)
 - If you choose Domain, it will install Nginx and Certbot, allowing the API to be available on port 443 (HTTPS) and get an SSL certificate over port 80, it is automatically renewed
+
+Uninstall it :
+`bash <(wget -qO- https://raw.githubusercontent.com/rustdesk/rustdesk-server-pro/main/uninstall.sh)`
